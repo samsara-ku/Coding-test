@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar test</title>
+    <script
+      src="https://kit.fontawesome.com/cf6bc9834d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="calendar_header">
+      <div class="calendar_header-column">
+        <div class="goToPrevMonth"><span class="prevMonth">&lt</span></div>
+        <div class="calendar_date">YYYY년 MM월</div>
+        <div class="goToNextMonth"><span class="prevMonth">&gt</span></div>
+      </div>
+    </header>
+
+    <div class="calendar_upperbox">
+      <div class="date"><div style="color:#ff4422">일</div></div>
+      <div class="date"><div>월</div></div>
+      <div class="date"><div>화</div></div>
+      <div class="date"><div>수</div></div>
+      <div class="date"><div>목</div></div>
+      <div class="date"><div>금</div></div>
+      <div class="date"><div>토</div></div>
+    </div>
+    <table class="calendar_table"></table>
+
+    <div class="calendar_modal">
+      <div class="calendar_modal-column column">
+        <p class="column-title">Initialization</p>
+        <input
+          type="text"
+          class="column-input"
+          placeholder="일정 제목을 입력하세요"
+        />
+        <div class="column-result">
+          <div class="column-accept"><p>확인</p></div>
+          <div class="column-close"><p>닫기</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="calendar_modal-change">
+      <div class="calendar_modal-column column">
+        <p class="column-title">Initialization</p>
+        <input type="text" class="column-input" value="default" />
+        <div class="column-result">
+          <div class="column-delete"><p>삭제</p></div>
+          <div class="column-modify"><p>수정</p></div>
+          <div class="column-quit"><p>닫기</p></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="fun.js"></script>
+  </body>
+</html>

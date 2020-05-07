@@ -1,0 +1,110 @@
+.calendar_modal-change {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.calendar_modal-change .calendar_modal-column.column {
+  background-color: #ffffff;
+  margin: 248px 15%;
+  width: 540px;
+  height: 272px;
+  border-radius: 3px;
+  justify-content: center;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-title {
+  padding-top: 36px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-input {
+  margin-top: 38px;
+  margin-left: 36px;
+  width: 467.5px;
+  height: 59.5px;
+  font-size: 24px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-indent: 12px;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-result {
+  display: flex;
+  margin-top: 38.5px;
+  margin-left: 83px;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-delete {
+  display: table;
+  width: 98px;
+  height: 40px;
+  background-color: #ff4422;
+  margin-right: 20px;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-delete p {
+  color: #ffffff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-modify {
+  display: table;
+  width: 98px;
+  height: 40px;
+  background-color: #0088ff;
+  margin: 0px 20px;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-modify p {
+  color: #ffffff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-quit {
+  display: table;
+  width: 98px;
+  height: 40px;
+  background-color: #888888;
+  margin-left: 20px;
+}
+
+.calendar_modal-change .calendar_modal-column.column .column-quit p {
+  color: #ffffff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.column-delete:hover,
+.column-delete:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.column-modify:hover,
+.column-modify:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.column-quit:hover,
+.column-quit:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

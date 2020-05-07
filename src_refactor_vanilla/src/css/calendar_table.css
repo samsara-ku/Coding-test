@@ -1,0 +1,60 @@
+.calendar_table {
+  width: 924px;
+  height: 642px;
+  border: 1px solid #bdbdbd;
+  table-layout: fixed;
+}
+
+.calendar_table td {
+  position: relative;
+  width: 132px;
+  height: 106px;
+  border: solid 1px #707070;
+  background-color: #ffffff;
+}
+
+.calendar_table img {
+  position: absolute;
+  top: 38px;
+  left: 52px;
+  width: 26.3px;
+  height: 30px;
+  opacity: 0;
+  border: none;
+}
+
+.calendar_table td font {
+  position: absolute;
+  right: 16px;
+  top: 74.8px;
+  text-align: right;
+}
+
+.calendar_table td img:hover {
+  cursor: pointer;
+  border: none;
+  opacity: 1;
+  background: url("../images/calendar-plus-solid.svg");
+}
+
+.calendar_table td span {
+  display: none;
+}
+
+.calendar_table td div {
+  width: 123px;
+  height: 18px;
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+  background-color: #0088ff;
+  margin: 5px 3px;
+  padding-top: 3px;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.calendar_table td div:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.calendar_upperbox {
+  display: flex;
+  width: 924px;
+  height: 40px;
+  background-color: #ffffff;
+}
+
+.calendar_upperbox .date {
+  width: 132px;
+  height: 40px;
+  border-left: solid 1px #707070;
+}
+
+.calendar_upperbox .date:last-child {
+  width: 132px;
+  height: 40px;
+  border-right: solid 1px #707070;
+}
+
+.calendar_upperbox .date div {
+  font-size: 16px;
+  margin: 11px 17px 10px 101px;
+}
